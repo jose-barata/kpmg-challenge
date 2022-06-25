@@ -1,0 +1,27 @@
+.button {
+  background-color: $primary-button;
+  font-size: 1.6rem;
+  outline: none;
+  color: $white;
+  font-weight: 600;
+  font-family: $font-family;
+  border: none;
+  border-radius: 0.25em;
+  padding: 1rem 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  margin-left: 0.9rem;
+  transition: background-color $transition;
+
+  &:hover {
+    background-color: lighten($primary-button, 10%);
+  }
+
+  &.disabled {
+    pointer-events: none;
+    background-color: $grey;
+  }
+}

@@ -1,0 +1,15 @@
+.form-group {
+  width: 100%;
+  height: 5em;
+  display: flex;
+
+  label {
+    padding-right: 1em;
+  }
+  .form-control {
+    width: 100%;
+    font-size: large;
+    border: none;
+    border-radius: 0.25em;
+  }
+}
